@@ -1,0 +1,7 @@
+POST http://127.0.0.1:5000/api/send HTTP/1.1
+content-type: application/json
+
+{
+    "message": "Pelaporan Posisi Kapal saat ini kapal kungfu panda sedang berada di indonesia",
+    "chatId": "384032415"
+}
